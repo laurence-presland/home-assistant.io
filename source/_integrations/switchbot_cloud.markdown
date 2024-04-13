@@ -6,10 +6,12 @@ ha_category:
   - Plug
   - Remote
   - Switch
+  - Sensor
 ha_release: '2023.10'
 ha_iot_class: Cloud Polling
 ha_codeowners:
   - '@SeraphicRav'
+  - '@laurence-presland'
 ha_domain: switchbot_cloud
 ha_platforms:
   - climate
@@ -32,10 +34,10 @@ Please note, device names configured in the SwitchBot app are transferred into H
 
 - Plug (Wi-Fi only, only available in Japan)
 - Plug Mini, both the original and HomeKit-enabled
-
 - IR appliances exposed through the different hubs:
   - ON/OFF for all appliance types excepted "Others"
   - Air Conditioner
+- SwitchBot Meter Plus (temperature, humidity, battery)
 
 
 <div class='note warning'>
